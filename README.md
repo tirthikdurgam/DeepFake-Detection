@@ -15,7 +15,7 @@ A real-time deepfake detection system that identifies manipulated (fake) faces i
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Language**: Python  
 - **Framework**: Flask  
