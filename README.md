@@ -29,12 +29,30 @@ A real-time deepfake detection system that identifies manipulated (fake) faces i
 
 This project uses the following datasets for training and testing the deepfake detection model:
 
-1. **Celeb-DF v2**
-   - URL: https://github.com/yuezunli/Celeb-DF
-   - License: Research use only
-   - Structure: Cropped face images from real and fake videos
 
-2. **Custom Dataset**
+1. **Celeb-DF v2**
+
+- **Source**: [https://github.com/yuezunli/Celeb-DF](https://github.com/yuezunli/Celeb-DF)
+- **License**: Academic research use only
+- **Description**:  
+  - High-quality DeepFake and real videos featuring celebrities  
+  - Also includes **cropped face frames** for deepfake training  
+  - Labels are provided in JSON format
+
+---
+
+2. **DFDC (DeepFake Detection Challenge)**
+
+- **Source**: [https://ai.facebook.com/datasets/dfdc/](https://ai.facebook.com/datasets/dfdc/)
+- **License**: For non-commercial research use
+- **Description**:  
+  - Large-scale dataset with **100,000+** real and fake videos  
+  - Includes metadata files that label each video as real or fake  
+  - Requires extraction of face frames for model training
+
+---
+
+3. **Custom Dataset**
    - Manually collected real and fake videos
    - Converted to frames and cropped using Azure Vision API
 
