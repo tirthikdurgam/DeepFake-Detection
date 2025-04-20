@@ -40,7 +40,7 @@ This project uses the following datasets for training and testing the deepfake d
 
 > ⚠️ Due to size and licensing restrictions, datasets are **not included** in this repository.
 ---
-## 📂Project Structure
+## Project Structure
 
 ```
 deepfake-detection/
