@@ -25,7 +25,21 @@ A real-time deepfake detection system that identifies manipulated (fake) faces i
 - **Frontend**: HTML, CSS  
 
 ---
+## Datasets Used
 
+This project uses the following datasets for training and testing the deepfake detection model:
+
+1. **Celeb-DF v2**
+   - URL: https://github.com/yuezunli/Celeb-DF
+   - License: Research use only
+   - Structure: Cropped face images from real and fake videos
+
+2. **Custom Dataset**
+   - Manually collected real and fake videos
+   - Converted to frames and cropped using Azure Vision API
+
+> ⚠️ Due to size and licensing restrictions, datasets are **not included** in this repository.
+---
 ## 📂Project Structure
 
 ```
