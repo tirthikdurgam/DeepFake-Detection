@@ -63,19 +63,19 @@ This project uses the following datasets for training and testing the deepfake d
 deepfake\_detection/
 │
 ├── .git/
-├── **pycache**/
+├── _pycache_/
 ├── Deepfake-Detect-master/
-├── cropped\_faces/
+├── cropped_faces/
 ├── frames/
 ├── img/
-├── prepared\_dataset/
-├── processed\_faces/
-├── split\_dataset/
-├── temp\_image/
+├── prepared_dataset/
+├── processed_faces/
+├── split_dataset/
+├── temp_image/
 ├── templates/
-├── tmp\_checkpoint/
-├── tmp\_fake\_faces/
-├── tmp\_uploaded\_files/
+├── tmp_checkpoint/
+├── tmp_fake_faces/
+├── tmp_uploaded_files/
 ├── uploads/
 ├── venv312/
 │
@@ -84,17 +84,16 @@ deepfake\_detection/
 ├── converting into frames.py
 ├── cropping faces with azure vision.py
 ├── cropping faces with mtcnn.py
-├── custom\_layers.py
-├── download\_ffpp.py
-├── model\_performance.log
-├── organise\_celeb-df.py
-├── organise\_dfdcp.py
-├── plot\_training.py
-├── prepare real\&fake dataset.py
-├── prepared\_dataset.zip
+├── custom_layers.py
+├── download_ffpp.py
+├── model_performance.log
+├── organise_celeb-df.py
+├── organise_dfdcp.py
+├── plot_training.py
+├── prepare real&fake dataset.py
 ├── requirements.txt
 ├── train cnn.py
-└── training\_history.json
+└── training_history.json
 ```
 
 ##  How to Run the Project Locally
