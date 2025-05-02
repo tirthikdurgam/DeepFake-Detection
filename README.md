@@ -60,24 +60,41 @@ This project uses the following datasets for training and testing the deepfake d
 ---
 ## Project Structure
 
-```
-deepfake-detection/
-├── app.py                     # Flask backend
+deepfake\_detection/
+│
+├── .git/
+├── **pycache**/
+├── Deepfake-Detect-master/
+├── cropped\_faces/
+├── frames/
+├── img/
+├── prepared\_dataset/
+├── processed\_faces/
+├── split\_dataset/
+├── temp\_image/
+├── templates/
+├── tmp\_checkpoint/
+├── tmp\_fake\_faces/
+├── tmp\_uploaded\_files/
+├── uploads/
+├── venv312/
+│
+├── app.py
+├── cleanup.py
+├── converting into frames.py
+├── cropping faces with azure vision.py
+├── cropping faces with mtcnn.py
+├── custom\_layers.py
+├── download\_ffpp.py
+├── model\_performance.log
+├── organise\_celeb-df.py
+├── organise\_dfdcp.py
+├── plot\_training.py
+├── prepare real\&fake dataset.py
+├── prepared\_dataset.zip
 ├── requirements.txt
-├── README.md
-├── static/                    # Static frontend assets
-├── templates/                 # index.html for UI
-├── DeepFakeDetection/        # Core logic and scripts
-│   ├── 00-convert_video_to_image.py
-│   ├── 01b-crop_faces_with_azure-vision-api.py
-│   ├── 03-train_cnn.py
-│   └── ...
-├── tmp_uploaded_files/       # Stores uploaded user files
-├── tmp_faces/                # Cropped face images
-├── tmp_checkpoint/           # Trained models (e.g., best_model.keras)
-└── training-history.json     # Model training performance log
-```
-
+├── train cnn.py
+└── training\_history.json
 ---
 
 ##  How to Run the Project Locally
