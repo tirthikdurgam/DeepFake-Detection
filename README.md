@@ -59,7 +59,7 @@ This project uses the following datasets for training and testing the deepfake d
 > ⚠️ Due to size and licensing restrictions, datasets are **not included** in this repository.
 ---
 ## Project Structure
-
+```
 deepfake\_detection/
 │
 ├── .git/
@@ -95,7 +95,7 @@ deepfake\_detection/
 ├── requirements.txt
 ├── train cnn.py
 └── training\_history.json
----
+```
 
 ##  How to Run the Project Locally
 
